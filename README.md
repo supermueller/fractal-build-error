@@ -6,6 +6,6 @@
 1. Run `npm intall` to install Fractal
 1. Run `fractal build`
 
-The build process should then fail with an faral error (`Ineffective mark-compacts near heap limit Allocation failed - JavaScript heap out of memory`)
+The build process should then fail with a fatal error (`Ineffective mark-compacts near heap limit Allocation failed - JavaScript heap out of memory`).
 
-If you remove one item from the context of component "buttonGroup", the build process wiull finish without errors.
+If you remove one item from the context of component "ul", the build process will finish without errors.
