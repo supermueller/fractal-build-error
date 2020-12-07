@@ -1,33 +1,11 @@
-# Fractal Handlebars example
+# Test case for build error
 
-This is an example instance of Fractal using the default Handlebars adapter.
+### To reproduce error
 
-## Setup
+1. Clone this repository
+1. Run `npm intall` to install Fractal
+1. Run `fractal build`
 
-[Follow these instructions](https://github.com/frctl/fractal#development) to setup the development environement, then run:
+The build process should then fail with an faral error (`Ineffective mark-compacts near heap limit Allocation failed - JavaScript heap out of memory`)
 
-```bash
-npm start
-```
-
-to start Fractal server in development mode, or:
-
-```
-npm run build
-```
-
-to build a static version in the `dist` folder.
-
-## Tests
-
-To run the tests suite once, run:
-
-```
-npm test
-```
-
-To start the test runner in watch mode, run:
-
-```
-npm run test:dev
-```
+If you remove one item from the context of component "buttonGroup", the build process wiull finish without errors.
