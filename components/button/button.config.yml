@@ -1,0 +1,6 @@
+context:
+    label: Button
+variants:
+    -
+        name: link
+        label: Link as Button

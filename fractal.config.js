@@ -19,6 +19,7 @@ fractal.set('project.title', 'Fractal Handlebars example');
  * Tell Fractal where to look for components.
  */
 fractal.components.set('path', path.join(__dirname, 'components'));
+fractal.components.set('ext', '.html');
 
 /*
  * Tell Fractal where to look for documentation pages.
